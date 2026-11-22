@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>David Lichters: App Design and Development</title>
+<meta name="description" content="I redesign iPhone and Android apps that people use every day at work. David Lichters, App Design and Development, Krefeld, Germany.">
+<link rel="canonical" href="https://lichtersapps.com/en/">
+<link rel="alternate" hreflang="de" href="https://lichtersapps.com/">
+<link rel="alternate" hreflang="en" href="https://lichtersapps.com/en/">
+<link rel="icon" href="data:,">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="David Lichters">
+<meta property="og:title" content="David Lichters: App Design and Development">
+<meta property="og:description" content="I redesign iPhone and Android apps that people use every day at work.">
+<meta property="og:url" content="https://lichtersapps.com/en/">
+<style>
+:root{--text:#1d1d1f;--fliess:#424245;--grau:#6e6e73;--linie:#d2d2d7;--link:#0066cc;
+--g-sea:linear-gradient(90deg,#32ade6,#0a84ff 50%,#5e5ce6)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:#fff;color:var(--text);
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:17px;line-height:1.47;letter-spacing:-.022em;-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:4px}
+.innen{max-width:980px;margin:0 auto;padding:0 22px}
+.kopf .innen{display:flex;align-items:center;justify-content:space-between;height:52px}
+.marke{display:flex;flex-direction:column;font-size:19px;line-height:1.15;font-weight:600;letter-spacing:.012em;color:var(--text)}
+.unterzeile{margin-top:1px;font-size:12px;line-height:1.2;font-weight:400;letter-spacing:-.01em;color:var(--grau)}
+.nw{white-space:nowrap}
+.kopf nav a{margin-left:24px;font-size:14px;letter-spacing:-.016em;color:var(--text)}
+@media (max-width:600px){.kopf nav a{display:none}.kopf nav a.immer{display:inline}}
+h1,h2,h3{color:var(--text);margin:0}
+h1{margin-top:64px;font-size:clamp(44px,8.4vw,80px);line-height:1.05;font-weight:700;letter-spacing:-.015em}
+.grad{color:#0a84ff;background-image:var(--g-sea);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+@media (min-width:600px){.grad{white-space:nowrap}}
+h2,h3{text-wrap:balance}
+p,li{text-wrap:pretty}
+.lead{margin:24px 0 0;max-width:740px;font-size:clamp(19px,2.4vw,24px);line-height:1.42;letter-spacing:.009em;color:var(--fliess)}
+.cta{margin:28px 0 0;font-size:19px}
+.mehr::after{content:"\00a0\203a"}
+section{padding-top:104px}
+@media (max-width:600px){section{padding-top:72px}h1{margin-top:44px}}
+h2{margin-bottom:28px;font-size:clamp(32px,5vw,48px);line-height:1.08;font-weight:700;letter-spacing:-.003em}
+h3{margin-bottom:8px;font-size:21px;line-height:1.24;font-weight:600;letter-spacing:.011em}
+p,li{color:var(--fliess)}
+p{margin:0 0 16px}
+.raster{display:grid;grid-template-columns:1fr;gap:32px}
+@media (min-width:720px){.raster{grid-template-columns:1fr 1fr;gap:44px 56px}}
+.raster p{margin:0}
+.liste{margin:0 0 20px;padding:0;list-style:none}
+.app{display:flex;align-items:center;gap:16px;padding:16px 0;border-top:1px solid var(--linie);color:inherit}
+.app:last-child{border-bottom:1px solid var(--linie)}
+.app:hover{text-decoration:none}
+.app img{flex:none;width:72px;height:72px}
+.app strong{display:block;font-size:19px;line-height:1.25;font-weight:600;color:var(--text)}
+.app small{display:block;margin-top:2px;font-size:15px;line-height:1.35;color:var(--grau)}
+.app .mehr{display:block;margin-top:4px;font-size:15px;color:var(--link)}
+.ueber{max-width:740px}
+.ueber h3{margin-top:36px}
+.ueber ul{margin:0 0 16px;padding-left:22px}
+.ueber .schluss{color:var(--text);font-weight:600}
+.gross{font-size:clamp(24px,4vw,32px);font-weight:600;letter-spacing:.004em}
+.recht{padding-top:96px;font-size:14px;line-height:1.5;letter-spacing:-.016em}
+.recht h2{margin-bottom:16px;font-size:24px;letter-spacing:.009em}
+.recht h3{margin:20px 0 4px;font-size:15px;letter-spacing:-.016em}
+.recht p{margin:0;color:var(--grau);max-width:740px}
+.fuss{padding:56px 0 64px;font-size:12px;line-height:1.33;color:var(--grau)}
+.fuss p{color:var(--grau)}
+</style>
+</head>
+<body>
+<header class="kopf"><div class="innen">
+<a class="marke" href="#start">David Lichters<span class="unterzeile">App Design and Development</span></a>
+<nav aria-label="Page sections"><a href="#services">Services</a><a href="#apps">Apps</a><a href="#about">About me</a><a class="immer" href="#contact">Contact</a><a class="immer" href="https://lichtersapps.com/" hreflang="de" lang="de">Deutsch</a></nav>
+</div></header>
+
+<main class="innen" id="start">
+<h1>Your app, <span class="grad">redesigned.</span></h1>
+<p class="lead">I redesign iPhone and Android apps that people use every day at work. Calm and clear, in the style of Apple's own apps.</p>
+<p class="cta"><a class="mehr" href="mailto:david@lichtersapps.com">Send an email</a></p>
+
+<section id="services">
+<h2>How I work</h2>
+<div class="raster">
+<div><h3>See first, then decide</h3><p>You get a draft of your app in the new design before you pay anything. The starting point is the App Store reviews of your app.</p></div>
+<div><h3>Look and ease of use only</h3><p>This is about the look and the ease of use. If you wish, I implement the design in your app myself at no extra cost; otherwise your team builds it from the design rules. Your data and workflows stay exactly as they are.</p></div>
+<div><h3>Everything for your developers</h3><p>Screens for iPhone and Android, design rules and components, transfer of usage rights. Depending on the scope, also the admin area in the browser and a clickable prototype.</p></div>
+<div><h3>Fixed price, in writing, fast</h3><p>Quote and coordination by email, a fixed price up front, delivery of all files within 3 working days of your order.</p></div>
+</div>
+</section>
+
+<section id="apps">
+<h2>My latest apps on the App Store</h2>
+<p>I also build my own apps. These are out on the App Store:</p>
+<div class="liste">
+<a class="app" href="https://apps.apple.com/app/id6827594955"><img src="../img/bracketmaker.png" width="72" height="72" alt=""><span><strong>Bracket Maker: Tournament Plan</strong><small>Round Robin, Swiss &amp; Knockout</small><span class="mehr">View on the App Store</span></span></a>
+<a class="app" href="https://apps.apple.com/app/id6827596081"><img src="../img/coinclock.png" width="72" height="72" alt=""><span><strong>Coinclock: Hours Tracker &amp; Pay</strong><small>Time clock, timesheet &amp; wages</small><span class="mehr">View on the App Store</span></span></a>
+</div>
+<p><a class="mehr" href="https://apps.apple.com/developer/id6823486896">All apps by David Lichters on the App Store</a></p>
+</section>
+
+<section id="about" class="ueber">
+<h2>About me</h2>
+<p>I work on app design and development in Krefeld, Germany. My work has a clear focus: I redesign the iPhone and Android apps that people rely on at work, so that they feel calm, clear and fast.</p>
+<p>I read what the users of your app write in their App Store reviews, take their frustration seriously and turn it into a concrete new design. You see the result before you decide anything.</p>
+<h3>Why I do this work</h3>
+<p>I am David Lichters, and here in Krefeld I design, build and publish my own iPhone apps. My own apps came out on the App Store in November 2026.</p>
+<p>I believe that software used every working day deserves the same care as the best consumer apps. That shapes my values: respect for the people who use the app, clarity instead of decoration, and honesty toward the companies I work for.</p>
+<h3>What I specialize in</h3>
+<p>My design is calm and familiar, in the spirit of Apple's own apps: large, legible type, clear buttons, generous spacing and nothing that competes for attention.</p>
+<p>I change the look and the ease of use, nothing else. For the design I need no access to your systems. If you want me to implement it, I work in a copy of your code; your team reviews every change and decides what goes live.</p>
+<h3>My service promise</h3>
+<p>Working with me is simple and predictable. Everything happens in writing by email, so every decision is documented and nothing gets lost in a phone call. My prices are fixed prices, agreed before the work starts: no surprises from hourly billing and no open-ended invoices. From the first message to the handover, you have one contact person who knows your app, your users and your goals.</p>
+<h3>A delivery you can plan around</h3>
+<p>My work is delivered digitally, and fast. Within three working days of your order, you receive the complete handover of the design by email:</p>
+<ul>
+<li>every screen, designed for iPhone and Android</li>
+<li>clear design rules your team can follow as the app grows</li>
+</ul>
+<p>Because everything arrives in one organized package, your developers can start right away, whether your team is in Germany or elsewhere.</p>
+<h3>Write to me about your app</h3>
+<p>If your company's app is part of people's working day, I am glad to help make that day a little easier. Write to me and tell me about your product. You get a clear, written answer from me, and I look after your project from start to finish.</p>
+<p class="schluss">David Lichters, Krefeld. Calm design for apps people use every day.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Write to me, I reply by email.</p>
+<p class="gross"><a href="mailto:david@lichtersapps.com">david@lichtersapps.com</a></p>
+<p>David Lichters, Maurenbrecherstrasse 16, 47803 Krefeld, Germany</p>
+<p><a href="https://lichtersapps.com/#impressum" hreflang="de">Impressum</a> (legal notice) and <a href="https://lichtersapps.com/#datenschutz" hreflang="de">Datenschutz</a> (privacy policy), in German</p>
+</section>
+</main>
+
+<footer class="fuss"><div class="innen">
+<p>© 2026 David Lichters · <a href="https://lichtersapps.com/#impressum" hreflang="de">Impressum</a> · <a href="https://lichtersapps.com/#datenschutz" hreflang="de">Datenschutz</a></p>
+</div></footer>
+</body>
+</html>
