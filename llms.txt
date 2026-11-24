@@ -1,1 +1,9 @@
-This file moved to https://dlichters.com/llms.txt
+# Lichters Apps
+
+> App design for employee apps, based in Krefeld, Germany. We redesign the iPhone and Android apps that people use at work every day (time tracking, service records, job documentation) and publish our own iPhone apps on the App Store. The website is in German and English.
+
+- [Company page in German: services, apps, about us, contact, legal notice](https://lichtersapps.com/)
+- [Company page in English](https://lichtersapps.com/en/)
+- Contact: david@lichtersapps.com
+- [Turnierplaner: Bracket Maker on the App Store](https://apps.apple.com/de/app/turnierplaner-bracket-maker/id6827594955)
+- [Coinclock: Arbeitszeit & Lohn on the App Store](https://apps.apple.com/de/app/coinclock-arbeitszeit-lohn/id6827596081)
