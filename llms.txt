@@ -6,4 +6,4 @@
 - [Company page in English](https://lichtersapps.com/en/)
 - Contact: david@lichtersapps.com
 - [Turnierplaner: Bracket Maker on the App Store](https://apps.apple.com/de/app/turnierplaner-bracket-maker/id6827594955)
-- [Coinclock: Arbeitszeit & Lohn on the App Store](https://apps.apple.com/de/app/coinclock-arbeitszeit-lohn/id6827596081)
+- [Coffer: Collection Tracker on the App Store](https://apps.apple.com/app/id6827867749)
