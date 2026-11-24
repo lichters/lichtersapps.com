@@ -10,7 +10,8 @@
 <link rel="canonical" href="https://lichtersapps.com/">
 <link rel="alternate" hreflang="de" href="https://lichtersapps.com/">
 <link rel="alternate" hreflang="en" href="https://lichtersapps.com/en/">
-<link rel="icon" href="data:,">
+<link rel="icon" type="image/png" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#ffffff">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
@@ -18,6 +19,11 @@
 <meta property="og:title" content="David Lichters: App-Design und -Entwicklung">
 <meta property="og:description" content="Ich gestalte iPhone- und Android-Apps neu, die Menschen jeden Tag bei der Arbeit nutzen.">
 <meta property="og:url" content="https://lichtersapps.com/">
+<meta property="og:image" content="https://lichtersapps.com/img/vorschau-de.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ihre App, neu gestaltet. David Lichters, App-Design und -Entwicklung">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 :root{--text:#1d1d1f;--fliess:#424245;--grau:#6e6e73;--linie:#d2d2d7;--link:#0066cc;
 --g-sea:linear-gradient(90deg,#32ade6,#0a84ff 50%,#5e5ce6)}
@@ -31,12 +37,14 @@ a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:4px}
 .innen{max-width:980px;margin:0 auto;padding:0 22px}
-.kopf .innen{display:flex;align-items:center;justify-content:space-between;height:52px}
+.kopf .innen{display:flex;align-items:center;justify-content:space-between;min-height:52px}
+.kopf nav{flex:none;white-space:nowrap}
 .marke{display:flex;flex-direction:column;font-size:19px;line-height:1.15;font-weight:600;letter-spacing:.012em;color:var(--text)}
 .unterzeile{margin-top:1px;font-size:12px;line-height:1.2;font-weight:400;letter-spacing:-.01em;color:var(--grau)}
 .nw{white-space:nowrap}
-.kopf nav a{margin-left:24px;font-size:14px;letter-spacing:-.016em;color:var(--text)}
-@media (max-width:600px){.kopf nav a{display:none}.kopf nav a.immer{display:inline}}
+.kopf nav a{display:inline-block;padding:13px 0;margin-left:24px;font-size:14px;letter-spacing:-.016em;color:var(--text)}
+@media (max-width:600px){.kopf nav a{display:none}.kopf nav a.immer{display:inline-block}}
+@media (max-width:359px){.kopf nav a{margin-left:14px}}
 h1,h2,h3{color:var(--text);margin:0}
 h1{margin-top:64px;font-size:clamp(44px,8.4vw,80px);line-height:1.05;font-weight:700;letter-spacing:-.015em}
 .grad{color:#0a84ff;background-image:var(--g-sea);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
@@ -79,7 +87,7 @@ p{margin:0 0 16px}
 </head>
 <body>
 <header class="kopf"><div class="innen">
-<a class="marke" href="#start">David Lichters<span class="unterzeile">App-Design und -Entwicklung</span></a>
+<a class="marke" href="#start">David Lichters<span class="unterzeile">App-Design <span class="nw">und -Entwicklung</span></span></a>
 <nav aria-label="Seitenbereiche"><a href="#leistung">Leistung</a><a href="#apps">Apps</a><a href="#ueber-uns">Über mich</a><a class="immer" href="#kontakt">Kontakt</a><a class="immer" href="https://lichtersapps.com/en/" hreflang="en" lang="en">English</a></nav>
 </div></header>
 
